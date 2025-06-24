@@ -13,3 +13,8 @@ body {
     padding: 50px;
     background-image: url(https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqKb2qCPsMYbBY1OLlKhkAOvQELDdhga27V097fuip4M5yywTkS2ajwFnDnYKpm7muDfEnogfMyO7cODAjDXlejMmLGj73TNNNGJYRsO2EaiNOX2EopsfGwDWCEdQFsULpxPNjI0g=w289-h312-n-k-no);
 }
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
