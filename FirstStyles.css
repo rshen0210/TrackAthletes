@@ -1,0 +1,15 @@
+h1, h2, p, form, ol {
+    text-align: center;
+}
+body {
+    background-color: brown;
+}
+
+#mutaz {
+    background-color: red;
+    width: 1000px;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 50px;
+    background-image: url(https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqKb2qCPsMYbBY1OLlKhkAOvQELDdhga27V097fuip4M5yywTkS2ajwFnDnYKpm7muDfEnogfMyO7cODAjDXlejMmLGj73TNNNGJYRsO2EaiNOX2EopsfGwDWCEdQFsULpxPNjI0g=w289-h312-n-k-no);
+}
