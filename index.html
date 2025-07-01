@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="styles.css">
+    <title>Athlete Questionnaire</title>
+</head>
+<body>
+    <h1 id="title">Athlete Questionnaire</h1>
+    <p id="description">This a recruiting questionnaire for track athletes</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Name</label>
+            <input id="name" type ="text" required placeholder="Enter your name">
+            <label for="email" id="email-label">Email</label>
+            <input id="email" type ="email" required placeholder="Enter your email">
+            <label for="number" id="number-label">Age</label>
+            <input id="number" type ="number" required placeholder="Enter your age (13-100)" min="13" max="100">
+            <label for="Event" id="event-label">Track Event</label>
+            <input id="event" type ="text" required placeholder="Enter your best track event">
+            <label for="marks" id="mark-label">Track Event</label>
+            <input id="marks" type ="text" required placeholder="Enter your best mark for that event">
+            <label for = "dropdown" id="group-label">Event Group</label>
+            <select id="dropdown">
+                <option>Select your event group</option>
+                <option>Sprinter</option>
+                <option>Jumper</option>
+                <option>Distance</option>
+                <option>Thrower</option>
+            </select>
+            <label for="highschool" class="radio"><input value="highschool" id="highschool" type="radio" name="school" class="inline" checked /> High School</label>
+            <label for="college" class="radio"><input value="college" id="college" type="radio" name="school" class="inline"/> College</label>
+            <label for="pro" class="radio"><input value="pro" id="pro" type="radio" name="school" class="inline"/> Pro</label>
+            <label for="true">Is all the info in this document true? <input id = "true" value = "true" type="checkbox" required></label>
+            <label for ="terms-and-conditions">Have you read the <a href="amazon.com">terms and conditions</a>?<input value = "terms-and-conditions" type="checkbox" required></label>
+            <label for ="feedback">What feedback do you have on this form?</label>
+            <textarea id="feedback"></textarea>
+        </fieldset>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+</body>
+</html>

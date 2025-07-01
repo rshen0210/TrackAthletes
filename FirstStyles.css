@@ -5,16 +5,26 @@ body {
     background-color: brown;
 }
 
-#mutaz {
-    background-color: red;
-    width: 1000px;
+.athlete_description {
+    width: 986px;
+    height: 555px;
     margin-right:auto;
     margin-left:auto;
-    padding: 50px;
-    background-image: url(https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqKb2qCPsMYbBY1OLlKhkAOvQELDdhga27V097fuip4M5yywTkS2ajwFnDnYKpm7muDfEnogfMyO7cODAjDXlejMmLGj73TNNNGJYRsO2EaiNOX2EopsfGwDWCEdQFsULpxPNjI0g=w289-h312-n-k-no);
+    padding:30px;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1H6gxS.img?w=986&h=555&m=4&q=89);
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 5px 0px rgb(238, 103, 0, 0.8);
 }
 img {
     display:block;
     margin-left:auto;
     margin-right:auto;
+}
+hr {
+    height:2px;
+    border:none;
+    margin:20px;
+}
+.jumpEventInquiry {
+    display:block;
 }
