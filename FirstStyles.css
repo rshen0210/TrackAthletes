@@ -2,21 +2,23 @@ h1, h2, p, form, ol {
     text-align: center;
 }
 body {
-    background-color: brown;
+    background-image: linear-gradient(45deg, rgb(21, 153, 235), green, rgb(21,140,220));
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:auto;
+    margin-left:auto;
+    width:800px;
 }
 
 .athlete_description {
-    width: 986px;
-    height: 555px;
-    margin-right:auto;
-    margin-left:auto;
-    padding:30px;
-    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1H6gxS.img?w=986&h=555&m=4&q=89);
+    width:100%;
+    background-image: url(https://sdmntprwestus3.oaiusercontent.com/files/00000000-6f54-61fd-9abe-c1d7187ffc70/raw?se=2025-07-10T06%3A25%3A13Z&sp=r&sv=2024-08-04&sr=b&scid=d70fe38a-330d-58a2-a76e-e498b4a28460&skoid=ec8eb293-a61a-47e0-abd0-6051cc94b050&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-09T20%3A27%3A23Z&ske=2025-07-10T20%3A27%3A23Z&sks=b&skv=2024-08-04&sig=0/vESNu79UIWTIe8Wxrjj55dM/KoxgjPj%2BRCkEmLkI4%3D);
     background-size: 100% 100%;
-    box-shadow: 5px 5px 5px 0px rgb(238, 103, 0, 0.8);
 }
 img {
     display:block;
+    width:200px;
     margin-left:auto;
     margin-right:auto;
 }
