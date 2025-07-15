@@ -1,4 +1,4 @@
-h1, h2, p, form, ol {
+h1, h2, p, form {
     text-align: center;
 }
 body {
@@ -29,4 +29,17 @@ hr {
 }
 .jumpEventInquiry {
     display:block;
+}
+.ranking ul {
+    list-style:square;
+    padding: 0 0 0 20px;
+    font-family:sans-serif;
+
+}
+.ranking {
+    width:50%;
+    margin:0 auto;
+    border-color:blueviolet;
+    border-width:10px;
+    border-style: solid;
 }
